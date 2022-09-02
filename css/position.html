@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Position in HTML</title>
+        <!-- <link href="./position.css">
+            static
+            absolute
+            relative
+            fixed
+            sticky
+        -->
+        <style>
+            .parent{
+                background-color: aqua;   
+                padding: 20px;
+                /* position: relative; */
+                height: 1500px;
+            }
+            .child{
+                height: 25px;
+            }
+            .child-one{
+                background-color: red;
+            }
+            .child-two{
+                background-color: blue;
+                position: sticky;
+                top: 20px;
+            }
+            .child-three{
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            Parent
+            <div class="child-one child">Red</div>
+            <div class="child-two child">Blue</div>
+            <div class="child-three child">Yellow</div>
+        </div>
+    </body>
+</html>
